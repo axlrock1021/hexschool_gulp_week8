@@ -1,0 +1,842 @@
+---
+title: Doyoga
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+socialMedias: " "
+reservation: "d-none"
+reservationStatus1: " "
+reservationStatus2: " "
+reservationStatus3: " "
+---
+
+<!-- banner -->
+<section>
+  <div
+    class="bg-img bg-img-bottom vh-100-header"
+    style="
+      background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1612157777902-5382bc6e864b.jpeg?raw=true);
+    "
+  >
+    <div class="container-lg d-flex flex-column justify-content-center h-100">
+      <div class="offset-lg-1">
+        <h2 class="h6 text-dark mb-2">健身輕時尚</h2>
+        <h1 class="text-dark fs-4 fw-md">DOYOGA，做你的瑜珈</h1>
+        <p class="text-dark mb-5">多給自己一點時間享受靜謐，傾聽內心的聲音。</p>
+        <div class="d-flex">
+          <a
+            href="reservation-course.html"
+            class="btn-warning btn-lg link-dark fs-7 me-2"
+            >立即預約</a
+          >
+          <a href="courses.html" class="btn-secondary btn-lg link-warning fs-7"
+            >課程介紹</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 瑜伽優點 -->
+<section>
+  <div class="container-lg pt-10 pb-12 pt-lg-12 pb-lg-16">
+    <h2 class="h4 fw-md text-center mb-1">感受身心，活在當下</h2>
+    <p class="h6 text-secondary text-center mb-7">DOYOGA 可以帶給你...</p>
+
+    <ul class="row">
+      <li class="col-md-4 mb-5 mb-md-0" style="height: 420px">
+        <div
+          class="card border-0 rounded-5 bg-img h-100"
+          style="
+            background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1593810450967-f9c42742e326.jpeg?raw=true);
+          "
+        >
+          <div class="card-body | d-flex flex-column justify-content-end">
+            <h3 class="h6 fs-md-7 text-white">整體健身</h3>
+            <p class="text-white">
+              每一個動作，都融入運動解剖學的的觀點強調以身體的中心線為出發點。
+            </p>
+          </div>
+        </div>
+      </li>
+      <li class="col-md-4 mb-5 mb-md-0" style="height: 420px">
+        <div
+          class="card border-0 rounded-5 bg-img h-100"
+          style="
+            background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1593810451137-5dc55105dace.jpeg?raw=true);
+          "
+        >
+          <div class="card-body | d-flex flex-column justify-content-end">
+            <h3 class="h6 fs-md-7 text-white">減壓放鬆</h3>
+            <p class="text-white">
+              調節全身系統、改善血液循環、減壓養心、釋放身心，達到修心養性的目的。
+            </p>
+          </div>
+        </div>
+      </li>
+      <li class="col-md-4" style="height: 420px">
+        <div
+          class="card border-0 rounded-5 bg-img h-100"
+          style="
+            background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1599901860904-17e6ed7083a0.jpeg?raw=true);
+          "
+        >
+          <div class="card-body | d-flex flex-column justify-content-end">
+            <h3 class="h6 fs-md-7 text-white">局部雕塑</h3>
+            <p class="text-white">
+              幫助強化背部與腹部的核心肌群，增進我們身體穩定度以及保持良好體態。
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- doyoga 師資介紹 -->
+<section>
+  <div class="bg-warning">
+    <div class="container-lg pt-10 pb-12 py-lg-16">
+      <div class="row">
+        <div class="col-lg-6 d-none d-lg-block">
+          <div
+            class="position-relative h-628 overflow-hidden border-0 rounded-5"
+          >
+            <img
+              class="
+                card-img
+                position-absolute
+                top-50
+                start-50
+                translate-middle
+              "
+              src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1540206276207-3af25c08abc4.jpeg?raw=true"
+              alt="yoga img"
+            />
+          </div>
+        </div>
+        <div class="col-lg-6 mx-md-auto my-auto">
+          <h2 class="h4 fw-md text-center text-lg-start mb-1">頂尖師資、專業教學</h2>
+          <p class="h6 text-secondary text-md-center text-lg-start w- mb-7">
+            強力師資，經歷豐富，協會認證。運用引導式教學，針對不同需求的人制定專屬課程。
+          </p>
+          <ul class="row justify-content-md-end">
+            <li class="col-md-11 col-lg-12 | mb-5 | position-relative">
+              <div class="card border-0 rounded-16 ms-lg-n19">
+                <div class="card-body d-flex align-items-center">
+                  <img
+                    src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/teacher-1.png?raw=true"
+                    alt="yoga teacher"
+                    class="me-5"
+                    style="width: 48px; height: 48px"
+                  />
+                  <div class="text-dark">
+                    <a href="courses.html#teacher-info" class="h6 mb-1 link-dark stretched-link">Carol Tang 老師</a >
+                    <p class="mb-1">教學經歷 10 年</p>
+                    <p class="">
+                      瑜珈讓我重新認識自己的身體，也讓我有了不一樣的人生。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="col-md-10 col-lg-12 mb-5 | position-relative">
+              <div class="card border-0 rounded-16">
+                <div class="card-body d-flex align-items-center">
+                  <img
+                    src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/teacher-2.png?raw=true"
+                    alt="yoga teacher"
+                    class="me-5"
+                    style="width: 48px; height: 48px"
+                  />
+                  <div class="text-dark">
+                    <a href="courses.html#teacher-info" class="h6 link-dark mb-1 stretched-link">Kanae 老師</a> 
+                    <p class="mb-1">教學經歷 10 年</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="col-md-10 col-lg-12 | position-relative">
+              <div class="card border-0 rounded-16">
+                <div class="card-body d-flex align-items-center">
+                  <img
+                    src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/teacher-3.png?raw=true"
+                    alt="yoga teacher"
+                    class="me-5"
+                    style="width: 48px; height: 48px"
+                  />
+                  <div class="text-dark">
+                    <a href="courses.html#teacher-info" class="h6 link-dark mb-1 stretched-link">Asa Ifrit 老師</a>
+                    <p class="mb-1">教學經歷 10 年</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 環境介紹 1 -->
+<section>
+  <div class="container-md py-13 py-md-14 py-lg-16">
+    <div class="row">
+      <div class="col-md-6 col-lg-4 my-auto order-1 order-md-3">
+        <h2 class="h4 mb-2 fw-md">舒適空間、靜心放鬆</h2>
+        <p class="h6 text-secondary mb-5">
+          我們都渴望平靜安穩的生活，擁有一處能夠靜心的角落，安撫每天繁雜忙碌的心。
+        </p>
+        <a href="space.html" class="link-primary mb-5 mb-md-0"
+          >環境介紹
+          <span class="material-icons-outlined align-middle ms-3">
+            trending_flat
+          </span>
+        </a>
+      </div>
+      <div class="col-6 col-md-2 order-3 order-md-2">
+        <img
+          src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/white%20round%20table%20near%20brown%20wooden%20chair.jpg?raw=true"
+          alt="surroundings"
+          class="card-img border-0 rounded-16 mb-10 img-s-m"
+        />
+        <img
+          src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/woman%20in%20black%20sports%20bra%20and%20blue%20denim%20jeans%20doing%20yoga.jpg?raw=true"
+          alt="yoga img"
+          class="card-img border-0 rounded-16 d-none d-md-block img-s-m"
+        />
+      </div>
+      <div class="col-6 col-md-4 order-2 order-md-1">
+        <img
+          src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/woman%20performing%20yoga.jpg?raw=true"
+          alt="yoga img"
+          class="card-img border-0 rounded-16 img-m-l"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 環境介紹 2 -->
+<section>
+  <div class="bg-warning">
+    <div class="container-md py-13 py-md-14 py-lg-16">
+      <div class="row">
+        <div class="col-md-6 my-auto">
+          <h2 class="h4 mb-2 fw-md">精心設計、課程多元</h2>
+          <p class="h6 text-secondary mb-5">
+            教師帶領多元課程，釋放壓力，與身心常見的緊繃不適溫柔和解。
+          </p>
+          <a href="space.html" class="link-primary mb-5 mb-md-0"
+            >環境介紹<span class="material-icons-outlined align-middle ms-3">
+              trending_flat
+            </span></a
+          >
+        </div>
+        <div class="col-md-6">
+          <div class="row gy-4 flex-lg-nowrap overflow-hidden align-items-center">
+            <div class="col-6 col-lg-10">
+              <div class="ratio ratio-1x1">
+                <img
+                  src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/woman%20doing%20yoga%20beside%20wall.jpg?raw=true"
+                  alt="surroundings"
+                  class="card-img border-0 rounded-16"
+                />
+              </div>
+            </div>
+            <div class="col-6 col-lg-10">
+              <div class="ratio ratio-1x1">
+                <img
+                  src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/rawan-yasser-zQ1ypq-WHzQ-unsplash.jpg?raw=true"
+                  alt="yoga img"
+                  class="card-img border-0 rounded-16"
+                />
+              </div>
+            </div>
+            <div class="col-6 col-lg-12">
+              <div class="ratio ratio-1x1">
+                <img
+                  src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/woman%20in%20black%20sports%20bra%20and%20black%20leggings%20doing%20yoga.jpg?raw=true"
+                  alt="yoga img"
+                  class="card-img border-0 rounded-16"
+                />
+              </div>
+            </div>
+            <div class="col-6 col-lg-12">
+              <div class="ratio ratio-1x1">
+                <img
+                  src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/woman%20in%20white%20tank%20top%20and%20white%20leggings%20bending%20her%20body.jpg?raw=true"
+                  alt="yoga img"
+                  class="card-img border-0 rounded-16"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 課程方案選擇 -->
+<section>
+  <div class="container-lg pt-10 pb-13 pt-md-12 pb-md-14 pb-lg-16">
+    <div class="text-center">
+      <h2 class="h4 fw-md mb-1">方案選擇</h2>
+      <p class="h6 text-secondary mb-7">DOYOGA 可以帶給你...</p>
+    </div>
+    <!-- 修改過排版方式 -->
+    <ul class="row">
+      <li class="col-lg-4 mb-5 mb-md-7 mb-lg-0">
+        <div class="card border-1 rounded-5 px-0">
+          <div class="row g-0">
+            <div class="col-md-6 col-lg-12">
+              <img
+                src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/woman%20in%20white%20tank%20top%20and%20white%20leggings%20bending%20her%20body.jpg?raw=true"
+                alt="yoga img"
+                class="
+                  card-img
+                  rounded-bottom-0
+                  rounded-md-5
+                  rounded-end-md-0
+                  rounded-lg-5
+                  rounded-bottom-lg-0
+                  h-243
+                "
+              />
+            </div>
+            <div class="col-md-6 col-lg-12">
+              <div
+                class="
+                  card-body
+                  text-center text-md-start text-lg-center
+                  my-md-auto
+                "
+              >
+                <h3 class="h6 mb-1">首次體驗</h3>
+                <p class="h6 text-secondary mb-2">NT $450 / 次</p>
+                <p class="text-start mb-12 mb-md-7 mb-lg-12">
+                  分基礎、中級、高級可以選擇<br />初次至 DOYOGA
+                  上課建議選擇此方案
+                </p>
+                <a
+                  href="reservation-course.html"
+                  class="
+                    btn btn-secondary btn-lg
+                    h6
+                    link-white
+                    stretched-link
+                    w-100
+                  "
+                  >選擇課程</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="col-lg-4 mb-5 mb-md-7 mb-lg-0">
+        <div class="card border-1 rounded-5 px-0">
+          <div class="row g-0">
+            <div class="col-md-6 col-lg-12">
+              <img
+                src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/woman%20performing%20yoga.jpg?raw=true"
+                alt="yoga img"
+                class="
+                  card-img
+                  rounded-bottom-0
+                  rounded-md-5
+                  rounded-end-md-0
+                  rounded-lg-5
+                  rounded-bottom-lg-0
+                  h-243
+                "
+              />
+            </div>
+            <div class="col-md-6 col-lg-12">
+              <div
+                class="
+                  card-body
+                  text-center text-md-start text-lg-center
+                  my-md-auto
+                "
+              >
+                <h3 class="h6 mb-1">短期體驗</h3>
+                <p class="h6 text-secondary mb-2">NT $1800 / 月</p>
+                <p class="text-start mb-12 mb-md-7 mb-lg-12">
+                  分基礎、中級、高級可以選擇<br />想試著培養瑜珈習慣者可以選擇此方案
+                </p>
+                <a
+                  href="reservation-course.html"
+                  class="
+                    btn btn-secondary btn-lg
+                    w-100
+                    link-white
+                    h6
+                    stretched-link
+                  "
+                  >選擇課程</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="col-lg-4">
+        <div class="card border-1 rounded-5 px-0">
+          <div class="row g-0">
+            <div class="col-md-6 col-lg-12">
+              <img
+                src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/woman%20in%20blue%20leggings%20and%20black%20tank%20top%20doing%20yoga.jpg?raw=true"
+                alt="yoga img"
+                class="
+                  card-img
+                  rounded-bottom-0
+                  rounded-md-5
+                  rounded-end-md-0
+                  rounded-lg-5
+                  rounded-bottom-lg-0
+                  h-243
+                "
+              />
+            </div>
+            <div class="col-md-6 col-lg-12">
+              <div
+                class="
+                  card-body
+                  text-center text-md-start text-lg-center
+                  my-md-auto
+                "
+              >
+                <h3 class="h6 mb-1">長期體驗</h3>
+                <p class="h6 text-secondary mb-2">NT $5600 / 季</p>
+                <p class="text-start mb-12 mb-md-7 mb-lg-12">
+                  分基礎、中級、高級可以選擇<br />有長期習慣做瑜伽者建議選擇此方案
+                </p>
+                <a
+                  href="reservation-course.html"
+                  class="
+                    btn btn-secondary btn-lg
+                    w-100
+                    link-white
+                    h6
+                    stretched-link
+                  "
+                  >選擇課程</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- 使用者評價 swiper -->
+<section>
+  <div class="bg-warning">
+    <div class="container-lg pt-10 pb-14 pt-md-12 pb-md-16">
+      <h2 class="h4 fw-md text-center mb-7 mb-md-10">聽聽他們怎麼說</h2>
+      <div class="swiper-container swiper-per-column">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide">
+            <div class="card border-0">
+              <div class="card-body d-flex">
+                <img
+                  src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/user-1.png?raw=true"
+                  alt="user img"
+                  class="img-fluid me-5 my-auto"
+                  style="width: 60px; height: 60px"
+                />
+                <div class="content">
+                  <h4 class="fs-7 mb-3">Joanne <span>Oct 17 2020</span></h4>
+                  <p class="mb-3">
+                    <span
+                      class="
+                        material-icons-outlined
+                        align-items-center
+                        text-secondary
+                      "
+                    >
+                      star
+                    </span>
+                    <span
+                      class="
+                        material-icons-outlined
+                        align-items-center
+                        text-secondary
+                      "
+                    >
+                      star
+                    </span>
+                    <span
+                      class="
+                        material-icons-outlined
+                        align-items-center
+                        text-secondary
+                      "
+                    >
+                      star
+                    </span>
+                    <span
+                      class="
+                        material-icons-outlined
+                        align-items-center
+                        text-secondary
+                      "
+                    >
+                      star
+                    </span>
+                    <span
+                      class="
+                        material-icons-outlined
+                        align-items-center
+                        text-secondary
+                      "
+                    >
+                      star
+                    </span>
+                  </p>
+                  <p class="">服務很好、設備優良！</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="swiper-slide">
+            <div class="card border-0">
+              <div class="card-body d-flex">
+                <img
+                  src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/user-2.png?raw=true"
+                  alt="user img"
+                  class="img-fluid me-5 my-auto"
+                  style="width: 60px; height: 60px"
+                />
+                <div class="content">
+                  <h4 class="fs-7 mb-3">Joanne <span>Oct 17 2020</span></h4>
+                  <p class="mb-3">
+                    <span
+                      class="
+                        material-icons-outlined
+                        align-items-center
+                        text-secondary
+                      "
+                    >
+                      star
+                    </span>
+                    <span
+                      class="
+                        material-icons-outlined
+                        align-items-center
+                        text-secondary
+                      "
+                    >
+                      star
+                    </span>
+                    <span
+                      class="
+                        material-icons-outlined
+                        align-items-center
+                        text-secondary
+                      "
+                    >
+                      star
+                    </span>
+                    <span
+                      class="
+                        material-icons-outlined
+                        align-items-center
+                        text-secondary
+                      "
+                    >
+                      star
+                    </span>
+                    <span
+                      class="
+                        material-icons-outlined
+                        align-items-center
+                        text-secondary
+                      "
+                    >
+                      star
+                    </span>
+                  </p>
+                  <p class="">服務很好、設備優良！</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="swiper-slide">
+            <div class="card border-0">
+              <div class="card-body d-flex">
+                <img
+                  src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/user-3.png?raw=true"
+                  alt="user img"
+                  class="img-fluid me-5 my-auto"
+                  style="width: 60px; height: 60px"
+                />
+                <div class="content">
+                  <h4 class="fs-7 mb-3">Joanne <span>Oct 17 2020</span></h4>
+                  <p class="mb-3">
+                    <span
+                      class="
+                        material-icons-outlined
+                        align-items-center
+                        text-secondary
+                      "
+                    >
+                      star
+                    </span>
+                    <span
+                      class="
+                        material-icons-outlined
+                        align-items-center
+                        text-secondary
+                      "
+                    >
+                      star
+                    </span>
+                    <span
+                      class="
+                        material-icons-outlined
+                        align-items-center
+                        text-secondary
+                      "
+                    >
+                      star
+                    </span>
+                    <span
+                      class="
+                        material-icons-outlined
+                        align-items-center
+                        text-secondary
+                      "
+                    >
+                      star
+                    </span>
+                    <span
+                      class="
+                        material-icons-outlined
+                        align-items-center
+                        text-secondary
+                      "
+                    >
+                      star
+                    </span>
+                  </p>
+                  <p class="">服務很好、設備優良！</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="swiper-slide">
+            <div class="card border-0">
+              <div class="card-body d-flex">
+                <img
+                  src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/user-4.png?raw=true"
+                  alt="user img"
+                  class="img-fluid me-5 my-auto"
+                  style="width: 60px; height: 60px"
+                />
+                <div class="content">
+                  <h4 class="fs-7 mb-3">Joanne <span>Oct 17 2020</span></h4>
+                  <p class="mb-3">
+                    <span
+                      class="
+                        material-icons-outlined
+                        align-items-center
+                        text-secondary
+                      "
+                    >
+                      star
+                    </span>
+                    <span
+                      class="
+                        material-icons-outlined
+                        align-items-center
+                        text-secondary
+                      "
+                    >
+                      star
+                    </span>
+                    <span
+                      class="
+                        material-icons-outlined
+                        align-items-center
+                        text-secondary
+                      "
+                    >
+                      star
+                    </span>
+                    <span
+                      class="
+                        material-icons-outlined
+                        align-items-center
+                        text-secondary
+                      "
+                    >
+                      star
+                    </span>
+                    <span
+                      class="
+                        material-icons-outlined
+                        align-items-center
+                        text-secondary
+                      "
+                    >
+                      star
+                    </span>
+                  </p>
+                  <p class="">服務很好、設備優良！</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="swiper-slide">
+            <div class="card border-0">
+              <div class="card-body d-flex">
+                <img
+                  src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/user-5.png?raw=true"
+                  alt="user img"
+                  class="img-fluid me-5 my-auto"
+                  style="width: 60px; height: 60px"
+                />
+                <div class="content">
+                  <h4 class="fs-7 mb-3">Joanne <span>Oct 17 2020</span></h4>
+                  <p class="mb-3">
+                    <span
+                      class="
+                        material-icons-outlined
+                        align-items-center
+                        text-secondary
+                      "
+                    >
+                      star
+                    </span>
+                    <span
+                      class="
+                        material-icons-outlined
+                        align-items-center
+                        text-secondary
+                      "
+                    >
+                      star
+                    </span>
+                    <span
+                      class="
+                        material-icons-outlined
+                        align-items-center
+                        text-secondary
+                      "
+                    >
+                      star
+                    </span>
+                    <span
+                      class="
+                        material-icons-outlined
+                        align-items-center
+                        text-secondary
+                      "
+                    >
+                      star
+                    </span>
+                    <span
+                      class="
+                        material-icons-outlined
+                        align-items-center
+                        text-secondary
+                      "
+                    >
+                      star
+                    </span>
+                  </p>
+                  <p class="">服務很好、設備優良！</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="swiper-slide">
+            <div class="card border-0">
+              <div class="card-body d-flex">
+                <img
+                  src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/uset-6.png?raw=true"
+                  alt="user img"
+                  class="img-fluid me-5 my-auto"
+                  style="width: 60px; height: 60px"
+                />
+                <div class="content">
+                  <h4 class="fs-7 mb-3">Joanne <span>Oct 17 2020</span></h4>
+                  <p class="mb-3">
+                    <span
+                      class="
+                        material-icons-outlined
+                        align-items-center
+                        text-secondary
+                      "
+                    >
+                      star
+                    </span>
+                    <span
+                      class="
+                        material-icons-outlined
+                        align-items-center
+                        text-secondary
+                      "
+                    >
+                      star
+                    </span>
+                    <span
+                      class="
+                        material-icons-outlined
+                        align-items-center
+                        text-secondary
+                      "
+                    >
+                      star
+                    </span>
+                    <span
+                      class="
+                        material-icons-outlined
+                        align-items-center
+                        text-secondary
+                      "
+                    >
+                      star
+                    </span>
+                    <span
+                      class="
+                        material-icons-outlined
+                        align-items-center
+                        text-secondary
+                      "
+                    >
+                      star
+                    </span>
+                  </p>
+                  <p class="">服務很好、設備優良！</p>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="d-md-none">
+          <!-- change svg img -->
+          <div
+            class="swiper-button-prev"
+            style="
+              background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0yLjExNyAxMmw3LjUyNyA2LjIzNS0uNjQ0Ljc2NS05LTcuNTIxIDktNy40NzkuNjQ1Ljc2NC03LjUyOSA2LjIzNmgyMS44ODR2MWgtMjEuODgzeiIvPjwvc3ZnPg==);
+            "
+          ></div>
+          <div
+            class="swiper-button-next"
+            style="
+              background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0yMS44ODMgMTJsLTcuNTI3IDYuMjM1LjY0NC43NjUgOS03LjUyMS05LTcuNDc5LS42NDUuNzY0IDcuNTI5IDYuMjM2aC0yMS44ODR2MWgyMS44ODN6Ii8+PC9zdmc+);
+            "
+          ></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

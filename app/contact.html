@@ -1,0 +1,65 @@
+---
+title: Doyoga - contact us
+layout: ./app/layout.ejs
+engine: ejs
+current: courses
+socialMedias: "d-none"
+reservation: "d-none"
+reservationStatus1: " "
+reservationStatus2: " "
+reservationStatus3: " "
+---
+<main>
+<section>
+    <div class="container-lg pt-13 pb-14 py-md-16">
+        <h2 class="h5 mb-7 text-center">聯絡我們</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-10 col-lg-7 mb-12 mb-md-0">
+                <iframe class="w-100 border-0 mb-7" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115666.61479077699!2d121.46775978554331!3d25.048265552225693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a98b83418d69%3A0xceb20b414ca9e822!2smystery%20yoga!5e0!3m2!1szh-TW!2stw!4v1629896643151!5m2!1szh-TW!2stw" height="360" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                
+                <address>
+                <h3 class="h5 mb-2">DOYOGA 教室位置</h3>
+                <a href="https://goo.gl/maps/veQYBuiwWvJ9kiyf8" class="d-block link-primary mb-2 mb-md-10">高雄市苓雅區北信街23號2樓</a>
+                <p>如何前往：</p>
+                <ul>
+                    <li class="mb-7">1. 搭乘捷運：紅線到正義站 3 號出口，延正義路方向至北信街交叉口即可。</li>
+                    <li class="mb-7">2. 搭乘公車：搭這些公車都可以抵達正義站 24B 25 33 50 76 77 77區 100</li>
+                    <li class="">3. 開車前往北信街 32 號，教室旁有專屬停車場可以使用。</li>
+                </ul>
+
+                </address>
+
+
+
+            </div>
+            <div class="col-md-10 col-lg-5">
+                <form class="bg-warning border-0 rounded-5 p-10">
+                    <h3 class="h6 mb-4 mb-md-7">意見回饋&問題詢問</h3>
+                    <!-- 不確定表單的部分是否需要用ul li 還是單純div就好 -->
+                    <ul>
+                        <li class="mb-4">
+                            <label for="customerName" class="form-label mb-2">姓名</label>
+                            <input class="form-control py-2 px-4" type="text" name="customer Name" id="customerName" placeholder="請輸入您的姓名">
+                        </li>
+                        <li class="mb-4">
+                            <label for="customerEmail" class="form-label mb-2">電子信箱</label>
+                            <input class="form-control py-2 px-4" type="email" name="customer Email" id="customerEmail" placeholder="email@example.com">
+                        </li>
+                        <li class="mb-4">
+                            <label for="customerTelNum" class="form-label mb-2">手機號碼</label>
+                            <input class="form-control py-2 px-4" type="tel" name="customer TelNum" id="customerTelNum" placeholder="0912-345-678">
+                        </li>
+                        <li class="mb-4">
+                            <label for="customerText" class="form-label mb-2">意見回饋</label>
+                            <textarea class="form-control py-2 px-4" name="customer Text" id="customerText" cols="100" rows="6"></textarea>
+                        </li>
+                    </ul>
+                    <button type="submit" class="d-block btn btn-secondary link-white ms-auto">送出</button>
+                   
+                        
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
